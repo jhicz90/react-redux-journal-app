@@ -22,7 +22,7 @@ export const AppRouter = () => {
                 dispatch(login(user.uid, user.displayName))
             }
         })
-    }, [])
+    }, [dispatch])
 
     return (
         <Router>
